@@ -1,0 +1,17 @@
+import { Invoice, PaymentSlip } from './ClassImplementsInterface';
+import { hasPrint } from './InterFaceForClass';
+
+const invOne: Invoice = new Invoice('mario', 'work on the mario website', 250);
+const invTwo: Invoice = new Invoice('luigi', 'work on the luigi website', 300);
+
+const payment: PaymentSlip = new PaymentSlip('mario', 'payment for website', 500);
+
+
+let invoices: hasPrint[] = [];
+invoices.push(invOne);
+invoices.push(invTwo);
+invoices.push(payment);
+
+invoices.forEach(inv => {
+    console.log(inv.print());
+})
