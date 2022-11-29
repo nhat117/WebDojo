@@ -18,9 +18,9 @@ const ProductPages = () => {
             alt='jean'
           />
         </div>
-        <div className='flex-[1.3] flex flex-col mt-10 items-start justify-items-start'>
-          <h2 className='title text-[40px]'>Hoody 100% cotton</h2>
-          <p className='pr-[4rem] text-justify mt-4 '>
+        <div className='flex-[1.3] flex flex-col mt-10 items-start justify-items-start mobile:items-center '>
+          <h2 className='title text-[40px] mobile:text-[30px]'>Hoody 100% cotton</h2>
+          <p className='pr-[4rem] text-justify mt-4 mobile:pr-0'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione modi similique
             totam quis dolore, mollitia, temporibus eaque praesentium eligendi voluptate quibusdam
           </p>

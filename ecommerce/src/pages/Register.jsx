@@ -17,7 +17,7 @@ const Register = () => {
 
   return (
     <div className='flex justify-center'>
-      <div className='flex flex-col absolute top-[30%] shadow-lg border-[2px] p-5 w-[30%]'>
+      <div className='flex flex-col absolute top-[30%] shadow-lg border-[2px] p-5 w-[36%] mobile:w-[90%]'>
         <text className='text-2xl'>Register</text>
         <div className='flex mt-3'>
           <input

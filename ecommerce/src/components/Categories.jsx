@@ -3,7 +3,7 @@ import CategoryAPI from "../apifolder/CategoryAPI";"";
 import Category from "./Category";
 const Categories = () => {
   return (
-    <div className='flex justify-between items-center p-5'>
+    <div className='flex justify-between items-center p-5 mobile:flex-col '>
       {CategoryAPI.map((category, index) => {
         return <Category item={category} key={index} />
       })}
