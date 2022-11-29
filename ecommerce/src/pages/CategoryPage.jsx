@@ -33,7 +33,7 @@ const HomePage = () => {
           </div>
           <div className="flex">
             <p>Sort by</p>
-            <select className="ml-3" name="" id="">
+            <select className="ml-3 border-2 border-silver" name="" id="">
               <option value="">Newset (first) </option>
               <option value="">Oldest (first)</option>
               <option value="">Price (ASC)</option>

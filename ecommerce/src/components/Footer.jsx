@@ -1,12 +1,11 @@
 import {
   Facebook,
   Instagram,
-  //   LocationPhoneOutlined,
-  LocationPhoneOutlined,
   LocationOnOutlined,
   Pinterest,
   Twitter,
   EmailOutlined,
+  PhoneOutlined,
 } from "@mui/icons-material";
 import React from "react";
 
@@ -43,8 +42,8 @@ const Footer = () => {
           <p className='pl-3'>State of California</p>
         </div>
         <div className='flex m-3'>
-          <LocationPhoneOutlined className='pl-3' />
-          <p className='pl-3'>State of California</p>
+          <PhoneOutlined />
+          <p className='pl-3'>012345467558</p>
         </div>
         <div className='flex m-3'>
           <EmailOutlined />

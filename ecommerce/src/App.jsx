@@ -1,9 +1,13 @@
-import HomePage from "./pages/HomePage";
+import Cart from "./pages/Cart";
+import CategoryPage from "./pages/CategoryPage";
+import ProductPages from "./pages/ProductPages";
 
 function App() {
   return (
     <div className='App'>
-      <HomePage />
+      {/* <CategoryPage /> */}
+      {/* <ProductPages /> */}
+      <Cart />
     </div>
   );
 }
