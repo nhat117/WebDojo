@@ -16,7 +16,7 @@ const Slider = () => {
 
   //Style
   const sliderStyle =
-    "rounded-full bg-grey flex justify-center items-center shadow-sm hover:cursor-pointer";
+    "rounded-full bg-grey flex justify-center items-center shadow-sm hover:cursor-pointer mobile:hidden ";
   return (
     <div className='parentDiv h-[540px] bg-white flex items-center justify-between'>
       <div className={`leftarrow ${sliderStyle}`} onClick={prevSlide}>
