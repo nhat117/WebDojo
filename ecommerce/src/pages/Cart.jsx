@@ -8,8 +8,6 @@ import NewsLetter from "../components/NewsLetter";
 const Cart = () => {
   return (
     <div>
-      <Announce />
-      <NavBar />
       <div className='p-5'>
         <div className='flex justify-center text-5xl'>My Cart</div>
         <div className='flex items-center justify-between mt-4 mobile:flex-col'>
@@ -140,8 +138,6 @@ const Cart = () => {
           </div>
         </div>
       </div>
-      <NewsLetter />
-      <Footer />
     </div>
   );
 };

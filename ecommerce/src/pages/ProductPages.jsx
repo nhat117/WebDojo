@@ -8,8 +8,6 @@ import NewsLetter from "../components/NewsLetter";
 const ProductPages = () => {
   return (
     <div>
-      <Announce />
-      <NavBar />
       <div className='flex justify-center mobile:flex-col mobile:mt-4 mobile:p-3'>
         <div className='flex flex-1 items-center justify-center'>
           <img
@@ -55,8 +53,6 @@ const ProductPages = () => {
           </button>
         </div>
       </div>
-      <NewsLetter />
-      <Footer />
     </div>
   );
 };

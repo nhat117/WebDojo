@@ -1,17 +1,17 @@
-import Cart from "./pages/Cart";
-import CategoryPage from "./pages/CategoryPage";
-import Login from "./pages/Login";
-import ProductPages from "./pages/ProductPages";
-import Register from "./pages/Register";
+import { Outlet } from "react-router-dom";
+import Announce from "./components/Announce";
+import Footer from "./components/Footer";
+import NavBar from "./components/NavBar";
+import NewsLetter from "./components/NewsLetter";
 
 function App() {
   return (
     <div className='App'>
-      {/* <CategoryPage /> */}
-      {/* <ProductPages /> */}
-      {/* <Cart / */}
-      {/* <Login /> */}
-      <Register />
+      <Announce />
+      <NavBar />
+      <Outlet />
+      <NewsLetter />
+      <Footer />
     </div>
   );
 }

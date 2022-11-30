@@ -10,8 +10,6 @@ import Slider from "../components/Slider";
 const HomePage = () => {
   return (
     <div>
-      <Announce />
-      <NavBar />
       <div className="flex flex-col p-5">
         <h1 className="text-[30px]">Men's</h1>
         <div className="flex items-center justify-between mt-3">
@@ -45,8 +43,6 @@ const HomePage = () => {
       <Slider />
       <Categories />
       <Products />
-      <NewsLetter />
-      <Footer />
     </div>
   );
 };
